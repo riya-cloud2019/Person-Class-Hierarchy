@@ -1,0 +1,31 @@
+body {
+  background-color: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #ffe6f0;  /* light pink */
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.message {
+  font-style: italic;
+  color: #555;
+}
